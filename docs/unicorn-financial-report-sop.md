@@ -18,6 +18,15 @@ Preferred tone:
 - Public-account friendly
 - Avoid over-academic structure
 - Use short paragraphs, strong section titles, and visual summary blocks
+- Read like an editor's judgment chain, not an AI-generated report outline
+- Prefer plain causal sentences: "the point is not X, but Y," "this matters because," "the harder question is"
+
+Voice calibration rule:
+
+- When the user provides a final edited draft, treat it as the best style sample for the next article.
+- Extract its sentence rhythm, section transitions, and judgment style before drafting the next piece.
+- Do not mechanically reuse the previous article's phrases. Preserve the user's habit of moving from concrete facts to a business implication, then to a sharper capital-market question.
+- Reduce generic summary language such as "core conclusion," "three main lines," or "strategic thinking" unless the user already uses it in the final draft.
 
 ## 2. Topic Selection
 
@@ -72,7 +81,25 @@ Minimum source log:
 
 ## 4. Research Inputs
 
-Collect information in six buckets.
+Collect information in seven buckets.
+
+### Company Identity and Name Origin
+
+Before explaining the business model, make the company feel concrete.
+
+Include:
+
+- What the company is in one sentence
+- Country or regional identity
+- Product surface, such as app, card, POS terminal, delivery network, marketplace, or banking license
+- Name origin when it is publicly available and sourceable
+- Why the name or brand tone fits the market problem
+
+Use name origin sparingly:
+
+- Include it when it helps readers remember the company.
+- Do not invent etymology. If the source is weak, omit it or write "the company has described the name as..."
+- Keep the explanation simple and readable, not dictionary-like.
 
 ### Founder Team
 
@@ -171,24 +198,43 @@ For each key investor:
 - Institution name
 - Founding or reputation background
 - Investment style
+- Plain-language investor category, such as insurance strategic CVC, growth capital, public/private crossover fund, global macro capital, or sector specialist
 - Why the company fits its thesis
 - What the investor likely expects next
 - Whether the investor is purely financial or strategically relevant
+
+Investor-writing rules:
+
+- Do not stop at "famous investor participated." Explain what that investor is buying.
+- If a fund type may be unfamiliar, define it in one simple sentence.
+- For strategic investors, connect the investment to distribution, data, product, regulation, or ecosystem synergy.
+- For financial investors, connect the investment to exit path, public-market comparables, or long-cycle asset repricing.
+- For China-relevant investors, explain why the case matters to Chinese readers, but avoid claiming direct technology transfer unless public sources support it.
 
 ## 5. Article Structure
 
 Recommended WeChat structure:
 
-1. Opening judgment card
-2. Founder team
-3. Core financial and operational data
-4. Revenue pillars
-5. AI, technology, or operating system
-6. Competitor comparison
-7. Strategic conclusion
-8. Key investor background and investment logic
-9. Personal commentary section
-10. Final summary
+1. Opening judgment: why this company is worth reading now
+2. Company identity: what it is, where it operates, and name origin when useful
+3. Founder team: why this team fits this specific market problem
+4. Financing event or financial milestone: what changed and why it matters
+5. Key investor background and investment logic: who is buying what thesis
+6. Revenue pillars: where money comes from and which layer drives margin
+7. AI, technology, operating system, license, or density advantage
+8. Market battlefield or geography: where the next proof point will happen
+9. Competitor comparison by model type
+10. Risks and unresolved questions
+11. Personal commentary section
+12. Source notes
+
+Logical handoff rules:
+
+- Each section should answer the question created by the previous section.
+- Avoid placing investor logic too late if the hook depends on investors.
+- Avoid company-profile sequencing that lists facts without explaining why the next section follows.
+- A good transition often looks like: "This is why the next question is..." or "That makes the next battleground..."
+- The final commentary should not recap every section. It should state the author's judgment in plainer, sharper language.
 
 Recommended recurring commentary block:
 
@@ -225,6 +271,7 @@ Suggested local package convention:
 E:\public-account\unicorn\<Company>\
   <company>-wechat.html
   images\
+    brand-opening.jpg
     title-master.png
     title-cover-2.35x1.jpg
     title-cover-1x1.jpg
@@ -248,6 +295,7 @@ For a full article package, prepare:
 - Title cover safe master
 - 2.35:1 safe-crop cover
 - 1:1 safe-crop cover
+- Opening brand-identity image showing the company's actual product, app, logo, card, storefront, vehicle, device, or core service surface
 - Founder or management team image from a public source when available
 - Business or revenue-pillar infographic
 - Key-event visual, such as a three-panel turning-point image
@@ -256,6 +304,11 @@ For a full article package, prepare:
 
 Important:
 
+- Visual quantity can follow prior articles, but visual content must be company-specific.
+- Do not copy the previous company's visual metaphor, color logic, or business network structure when the new company's business model is different.
+- The title cover should quickly signal the unicorn's identity, not only the article's abstract thesis.
+- The opening brand-identity image should make readers understand what the company looks like in the real world: logo, app, card, device, fleet, storefront, or platform surface.
+- Prefer official or public-source brand/product assets for the opening identity image. Use generated images for abstract systems, not for logos or product surfaces that need to be real.
 - Do not generate fake founder group photos.
 - If a real group photo is unavailable, download public founder headshots and build a clearly labeled source card.
 - If using a public media photo, keep source attribution in the caption or source notes.
@@ -270,14 +323,21 @@ Important:
 Before publishing:
 
 - Does the opening state the core judgment quickly?
+- Does the article explain what the company is before getting too abstract?
+- Does it include the name origin when the origin is useful and sourceable?
 - Are unsupported private-company claims softened or removed?
 - Is founder background more than just founding origin?
+- Does the founder section explain why this specific team fits this specific problem?
 - Are core data points tied to business model implications?
 - Is AI or technology explained through concrete operating use cases?
 - Does competitor comparison explain why the model is different?
 - Does investor background lead to a complete investment logic?
+- Are investor categories defined clearly enough for non-specialist readers?
+- Do sections connect logically instead of feeling like separate report modules?
 - Does the final commentary add a personal view?
 - Are all visuals readable on a phone?
+- Does the first visual show the unicorn's actual identity or product surface?
+- Are the visuals tailored to this company's business attributes rather than copied from a previous case?
 - Are generated images free of fake logos, fake people, and garbled text?
 - Are public image sources credited when needed?
 - Does the local output package contain the HTML, final images, and raw generated-image backups?

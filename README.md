@@ -13,6 +13,9 @@ This repository collects repeatable workflows for producing long-form public acc
 - `case-studies/rappi-report-worklog.md`
   A case study documenting the Rappi report workflow, including private-company fact checking, WeChat HTML packaging, and visual asset production.
 
+- `case-studies/uala-report-worklog.md`
+  A case study documenting the Uala report workflow, including final-draft voice calibration, investor logic, name-origin handling, and company-specific visual identity.
+
 ## Current Workflow Coverage
 
 - Topic selection and research framing
@@ -20,6 +23,7 @@ This repository collects repeatable workflows for producing long-form public acc
 - Public account article structure
 - Iterative content refinement
 - WeChat-friendly layout principles
-- Cover, founder image, and infographic asset planning
+- Name-origin, founder, and investor-logic sections for unicorn profiles
+- Cover, brand-identity image, founder image, and infographic asset planning
 - Local output package conventions for article HTML and images
 - Final review checklist before publishing
