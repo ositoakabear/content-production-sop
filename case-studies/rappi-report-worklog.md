@@ -61,7 +61,7 @@ The first article version followed the existing unicorn SOP structure:
 5. Founder team
 6. Competitive moat
 7. Risks
-8. Weekly observer commentary
+8. Personal commentary block
 9. Final summary
 
 The strongest framing became:
@@ -91,10 +91,11 @@ Local first output:
 Final packaged output after the user requested a dedicated folder:
 
 - `E:\public-account\unicorn\Rappi\rappi-wechat.html`
+- `E:\public-account\unicorn\Rappi\rappi-wechat-rich-copy.html`
 
 Editorial lesson:
 
-> The WeChat HTML deliverable should be packaged with its images from the start. A standalone HTML file is useful for drafting, but the publishing unit is the folder containing HTML plus final image assets.
+> The WeChat HTML deliverable should be packaged with its images from the start. A standalone HTML file is useful for drafting, but the publishing unit is the folder containing draft HTML, rich-copy HTML, and final image assets.
 
 ## 6. Visual Asset Production
 
@@ -183,21 +184,36 @@ Validation lesson:
 
 > If local preview is blocked by browser policy, do not bypass it. Do static file validation and preview through a permitted surface, such as the WeChat editor or a copied workspace path.
 
-## 9. SOP Changes Triggered by This Case
+## 9. Series Naming Iteration
+
+Rappi used the series label and commentary block as part of a repeatable column format.
+
+The standardized labels for future articles are now:
+
+- Series name: `每周独角兽观察`
+- Commentary block: `每周独角兽观察员点评`
+
+Editorial lesson:
+
+> Keep the column label stable across draft HTML, rich-copy HTML, and final published pages so the articles feel like one continuing series.
+
+## 10. SOP Changes Triggered by This Case
 
 This Rappi workflow added or strengthened these SOP rules:
 
 - Add a private-company source verification and claim-confidence step.
 - Treat reference WeChat articles as layout references, not factual sources.
 - Package final deliverables into a stable local folder: HTML plus images.
+- Include a rich-copy HTML file for WeChat editor handoff.
 - Keep title-cover content inside a central square safe area before exporting 2.35:1 and 1:1 crops.
 - Prioritize real public-source images for founders and management teams.
 - Use generated images for systems, business models, and symbolic comparisons.
 - Avoid logos, fake people, and embedded text in generated graphics.
 - Keep raw generated images for rollback and auditability.
 - Validate local image paths before handing off the HTML.
+- Standardize recurring labels as `每周独角兽观察` and `每周独角兽观察员点评`.
 
-## 10. Reusable Takeaways
+## 11. Reusable Takeaways
 
 - Start with a sharp capital-market question, not a company description.
 - Source-grade private-company data before drafting.
@@ -206,3 +222,4 @@ This Rappi workflow added or strengthened these SOP rules:
 - Design title images as a safe master first, then crop.
 - Keep captions in HTML so image text does not become a publishing risk.
 - Deliver the article as a complete local package, not only as pasted text.
+- Preserve stable series naming across drafts and final output.
