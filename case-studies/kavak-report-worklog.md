@@ -60,7 +60,7 @@ Final article structure:
 6. Competitor comparison
 7. Strategic thinking
 8. Investor background and investment logic
-9. Weekly observer commentary
+9. Personal commentary block
 10. Final summary
 
 ## 4. Founder Team Iteration
@@ -139,9 +139,10 @@ The layout was adjusted to be more mobile-friendly:
 - Reduced bullet density
 - Clear final commentary block
 
-Recurring commentary block:
+Recurring series labels now standardized by the SOP:
 
-> 每周独角兽观察员阿熊点评
+- Series name: `每周独角兽观察`
+- Commentary block: `每周独角兽观察员点评`
 
 Purpose:
 
@@ -177,7 +178,7 @@ The WeChat draft included:
 - AI operating system
 - Competitor comparison
 - Investor logic
-- Weekly observer commentary
+- `每周独角兽观察员点评` commentary block
 - Supporting visuals saved locally
 
 Local visual asset folder:
@@ -193,4 +194,5 @@ Local visual asset folder:
 - For cover images, design for crop safety from the beginning.
 - Avoid fake people images; use public source images or neutral visual cards.
 - Every major section should end with a judgment or implication.
+- Keep series naming stable as `每周独角兽观察` and `每周独角兽观察员点评`.
 
