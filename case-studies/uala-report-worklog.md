@@ -100,7 +100,7 @@ The final structure was:
 7. Mexico as the key battleground
 8. Competitor comparison by financial-machine type
 9. Risks
-10. Observer commentary
+10. `每周独角兽观察员点评`
 11. Source notes
 
 The important change was logical sequencing.
@@ -148,7 +148,20 @@ Lesson:
 
 > For long financial analysis on mobile, slightly smaller text with more line height can feel less cramped than larger text with tight leading.
 
-## 9. Source and Claim Hygiene
+## 9. Series Naming Iteration
+
+Uala showed why stable column naming matters. The final article should feel like the third entry in the same series, not a standalone fintech memo.
+
+The standardized labels for future articles are now:
+
+- Series name: `每周独角兽观察`
+- Commentary block: `每周独角兽观察员点评`
+
+Editorial lesson:
+
+> Standardize the column name and commentary block after the third article, once the series format has become clear.
+
+## 10. Source and Claim Hygiene
 
 The article avoided saying Uala had publicly released a complete FY2025 audited financial statement.
 
@@ -165,7 +178,7 @@ Editorial lesson:
 
 > For private fintech companies, preserve the difference between official round data, management disclosures, public reporting, and user-provided analysis.
 
-## 10. Reusable Takeaways
+## 11. Reusable Takeaways
 
 - Start with a sharp reader hook, but quickly connect it to a business-model question.
 - Explain company identity and name origin early when the company is unfamiliar.
@@ -178,3 +191,4 @@ Editorial lesson:
 - Add an opening brand-identity image when the unicorn is unfamiliar to Chinese readers.
 - Keep generated conceptual visuals low-text and use captions for accurate explanation.
 - Use the user's final edited draft as the voice target for future articles.
+- Keep series naming stable as `每周独角兽观察` and `每周独角兽观察员点评`.
