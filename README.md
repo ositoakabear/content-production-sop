@@ -7,6 +7,9 @@ This repository collects repeatable workflows for producing long-form public acc
 - `docs/unicorn-financial-report-sop.md`
   A reusable SOP for producing weekly unicorn financial report analysis articles.
 
+- `docs/wechat-editorial-style-guide.md`
+  A reusable WeChat visual and typography guide for the public account "势差", covering banner, body text, emphasis marks, and future mini-program entry placement.
+
 - `case-studies/kavak-report-worklog.md`
   A case study documenting the production process for the Kavak unicorn financial report.
 
@@ -34,6 +37,9 @@ This repository collects repeatable workflows for producing long-form public acc
 - User final-draft voice calibration and AI-style phrase cleanup
 - First-use Chinese annotations for English business terms and acronyms
 - WeChat-friendly layout principles
+- "势差" editorial visual identity and reusable top banner rules
+- Body typography and emphasis-marking rules
+- Future mini-program entry placement
 - Standard series naming: `每周独角兽观察` and `每周独角兽观察员点评`
 - Name-origin, founder, and investor-logic sections for unicorn profiles
 - Cover, brand-identity image, founder image, and infographic asset planning
