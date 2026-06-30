@@ -16,6 +16,7 @@ Preferred tone:
 
 - Clear, compact, analytical
 - Public-account friendly
+- Tight enough for mobile completion, not only comprehensive
 - Avoid over-academic structure
 - Use short paragraphs, strong section titles, and visual summary blocks
 - Read like an editor's judgment chain, not an AI-generated report outline
@@ -31,10 +32,20 @@ Series naming rule:
 Voice calibration rule:
 
 - When the user provides a final edited draft, treat it as the best style sample for the next article.
+- Compare the previous AI draft with the user's final edited version. Extract what the user shortened, deleted, softened, or rewrote.
 - Extract its sentence rhythm, section transitions, and judgment style before drafting the next piece.
 - Do not mechanically reuse the previous article's phrases. Preserve the user's habit of moving from concrete facts to a business implication, then to a sharper capital-market question.
 - Reduce generic summary language such as "core conclusion," "three main lines," or "strategic thinking" unless the user already uses it in the final draft.
+- Watch for AI-like phrasing: over-neat summaries, repeated "not only X but Y" structures, generic strategic adjectives, and section endings that sound like template conclusions.
 - The article should feel like an editor walking readers through a judgment, not like a consultant presenting a template.
+
+Length and compression rule:
+
+- Before final drafting, benchmark three to five comparable high-read public-account business-analysis posts when possible, especially from accounts with similar readers and article depth.
+- Use the benchmark to set a target length instead of assuming that more research should create a longer article.
+- Default target for weekly unicorn business analysis: roughly 3,000-4,500 Chinese characters, excluding source notes. Going beyond 5,000 characters requires clear incremental evidence, not repeated framing.
+- Cut repeated thesis statements first. Common repetition traps include restating that the company is "not only X," repeating the market-size setup, repeating incomplete-data caveats, and repeating the same investor or B2B implication in multiple sections.
+- If a paragraph does not add a new fact, implication, contrast, risk, or judgment, merge or delete it.
 
 ## 2. Topic Selection
 
@@ -93,6 +104,7 @@ Mandatory source-notes block for private companies:
 - State the main sources in plain language, such as company announcements, investor disclosures, credible media interviews, transaction announcements, public profiles, and user-provided materials.
 - Add a short caveat when complete audited financial statements are not public.
 - Add `不作为投资建议` when the article discusses valuation, IPO timing, profitability, or investor logic.
+- When uncertainty is central to the article, add a main-body section such as `能确认什么，不能确认什么？` before the business-model analysis. This lets the reader see what is verified, what is reported, and what remains unavailable.
 
 ## 4. Research Inputs
 
@@ -239,6 +251,18 @@ Investor-writing rules:
 - For strategic investors, connect the investment to distribution, data, product, regulation, or ecosystem synergy.
 - For financial investors, connect the investment to exit path, public-market comparables, or long-cycle asset repricing.
 - For China-relevant investors, explain why the case matters to Chinese readers, but avoid claiming direct technology transfer unless public sources support it.
+- Do not flatten all capital into "core investors." Separate early venture capital, strategic investors, growth investors, sovereign wealth funds, crossover funds, and private-credit providers because each implies a different thesis and proof point.
+
+### English Terms and Reader Accessibility
+
+Business analysis can use English terms when they are the precise market language, but the first occurrence should lower the reading threshold.
+
+Rules:
+
+- At first appearance, explain English acronyms and business terms in Chinese, such as `OTA（Online Travel Agency，在线旅游代理平台）`, `B2B（Business to Business，企业对企业）`, `GMV（Gross Merchandise Value，平台成交总额）`, and `PayLater（先买后付/旅行分期）`.
+- For unfamiliar English company, fund, or institution names, add a short Chinese role description at first mention, such as `HBX Group（全球酒店分销与旅游科技集团）`.
+- After the first explanation, use the shorter English term or acronym to keep the article readable.
+- Do not over-annotate globally familiar brand names unless the role in the article is unclear.
 
 ## 5. Title and Article Structure
 
@@ -253,6 +277,7 @@ Title rules:
 
 - The final title should preserve the real thesis, not only maximize curiosity.
 - If using a China analogy such as Meituan, Tencent, WeBank, or Nubank, explain the analogy's limit in the article.
+- A strong China analogy title often works best as `Chinese reference point + turning point + strategic narrowing`. Example: `东南亚版携程赚钱了：Traveloka不想只做OTA`.
 - Do not let the title promise a fact that the source log cannot support.
 - Save the final published title in the post-publish review, because it may differ from the working draft title.
 
@@ -273,10 +298,12 @@ Recommended WeChat structure:
 
 Logical handoff rules:
 
+- Before drafting, write a one-sentence logic spine for the article. Each section should have one job inside that spine.
 - Each section should answer the question created by the previous section.
 - Avoid placing investor logic too late if the hook depends on investors.
 - Avoid company-profile sequencing that lists facts without explaining why the next section follows.
 - Do not force every unicorn report into the same module order. Put the section where it answers the reader's next natural question.
+- After drafting, run a de-duplication pass: mark each paragraph as identity, evidence, model, investor, competition, risk, or judgment, then merge paragraphs that do the same job without adding new information.
 - A good transition often looks like: "This is why the next question is..." or "That makes the next battleground..."
 - The final commentary should not recap every section. It should state the author's judgment in plainer, sharper language.
 
@@ -365,6 +392,8 @@ Important:
 
 - Visual quantity can follow prior articles, but visual content must be company-specific.
 - Do not copy the previous company's visual metaphor, color logic, or business network structure when the new company's business model is different.
+- Separate the job of each image: title cover sells the thesis, opening brand image makes the company concrete, business-network image explains how the system works, and competitor image clarifies market position.
+- If an opening brand image and business-network image feel similar, simplify the opening image around the real logo/product surface and keep the network logic in the later infographic.
 - Keep rejected visual directions in a clearly named `rejected-<reason>/` folder when they teach a reusable lesson, such as `rejected-rappi-like/`.
 - Keep public-source brand and product assets in `images/source/` when they are used to build a brand-opening image.
 - The title cover should quickly signal the unicorn's identity, not only the article's abstract thesis.
@@ -377,17 +406,19 @@ Important:
 - Keep essential title-cover content inside a central square safe area so it survives both wide and square crops.
 - Use generated visuals for concepts, systems, and symbolic model comparisons; use real images for real people.
 - Prefer object-based infographics without embedded text. Put labels and explanation in the article caption where they are editable and accurate.
-- For mobile infographics, avoid small table text. Use stacked cards or large symbolic panels.
+- For mobile infographics, avoid small table text. Use stacked cards, large symbolic panels, or horizontal layouts that do not consume an entire phone screen with one tall image.
 
 ## 8. Review Checklist
 
 Before publishing:
 
+- Has the draft been compressed against a target word-count range based on comparable public-account posts?
 - Does the opening state the core judgment quickly?
 - Does the article explain what the company is before getting too abstract?
 - Does it include the name origin when the origin is useful and sourceable?
 - Has the final title been calibrated against the article's real thesis and source support?
 - Are unsupported private-company claims softened or removed?
+- If the company is private and data is fragmented, does the article clearly separate what can be confirmed from what cannot?
 - Is founder background more than just founding origin?
 - Does the founder section explain why this specific team fits this specific problem?
 - Are core data points tied to business model implications?
@@ -395,12 +426,17 @@ Before publishing:
 - Does competitor comparison explain why the model is different?
 - Does investor background lead to a complete investment logic?
 - Are investor categories defined clearly enough for non-specialist readers?
+- Are different capital types separated instead of flattened into one investor list?
 - Do sections connect logically instead of feeling like separate report modules?
+- Has a de-duplication pass removed repeated thesis statements, repeated market setup, and repeated caveats?
+- Have English terms and acronyms been explained in Chinese at first occurrence?
+- Has the latest user-edited draft been used as the voice sample?
 - Does the article use `每周独角兽观察` and `每周独角兽观察员点评` consistently?
 - Does the final commentary add a personal view?
 - Does the article include a `资料口径` block when source uncertainty requires one?
 - Are all visuals readable on a phone?
 - Does the first visual show the unicorn's actual identity or product surface?
+- Are title-cover, opening-brand, business-network, and competitor visuals doing distinct jobs?
 - Are cover/share images and body images counted and validated separately?
 - Are the visuals tailored to this company's business attributes rather than copied from a previous case?
 - Are generated images free of fake logos, fake people, and garbled text?
@@ -418,13 +454,14 @@ Record:
 - Working draft title if different
 - Final series label and commentary label
 - Final section order
+- Final approximate word count and whether the article felt overlong on mobile
 - Body image count
 - Cover/share image files
 - Final source-notes wording
 - Production package path
 - Published archive path
 - Any visual direction that was rejected and why
-- Any user edit that should become the next article's voice sample
+- Any user edit that should become the next article's voice sample, especially cuts that reduce AI-like phrasing or repeated logic
 
 Compare the production package with the final published archive:
 
@@ -432,6 +469,7 @@ Compare the production package with the final published archive:
 - Did any working-draft image disappear from the article body because it became a cover image?
 - Did the final article add source notes, caveats, or investor framing that should be moved into the SOP?
 - Did the user remove phrases that sounded too template-like or too AI-generated?
+- Did the user cut sections because the article repeated itself or exceeded the likely completion-friendly length?
 - Did the final layout reveal mobile-density issues such as overly large headings, tight line height, or crowded image text?
 
 Update the SOP when a pattern repeats across articles. Do not treat one-off fixes as permanent rules unless they clearly reduce publishing risk.
