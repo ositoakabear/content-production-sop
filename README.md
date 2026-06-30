@@ -1,49 +1,47 @@
-# Content Production SOP
+# Content Creation Playbook
 
-This repository collects repeatable workflows for producing long-form public account and social media content.
+This repository collects reusable content-production playbooks, editorial standards, platform packaging rules, case studies, and automation skills for WeChat and Xiaohongshu publishing.
 
-## Documents
+It is organized as a shared knowledge base for the public account "势差": universal rules live in `docs/`, vertical-column methods live in `playbooks/`, executable agent skills live in `skills/`, reusable scripts live in `scripts/`, and production retrospectives live in `case-studies/`.
 
-- `docs/unicorn-financial-report-sop.md`
-  A reusable SOP for producing weekly unicorn financial report analysis articles.
+## Universal Standards
 
-- `docs/wechat-editorial-style-guide.md`
-  A reusable WeChat visual and typography guide for the public account "势差", covering banner, body text, emphasis marks, and future mini-program entry placement.
+- `docs/editorial/wechat-editorial-style-guide.md`
+  Visual identity, universal opening banner, mini-program entry placement, typography, and emphasis rules for "势差".
 
-- `case-studies/kavak-report-worklog.md`
-  A case study documenting the production process for the Kavak unicorn financial report.
+- `docs/platforms/wechat-rendering-and-api-pitfalls.md`
+  WeChat HTML rendering constraints, draft API pitfalls, image upload rules, IP whitelist notes, encoding issues, and Windows execution notes.
 
-- `case-studies/rappi-report-worklog.md`
-  A case study documenting the Rappi report workflow, including private-company fact checking, WeChat HTML packaging, and visual asset production.
+- `docs/platforms/xiaohongshu-adaptation.md`
+  Reusable Xiaohongshu adaptation rules for turning long-form material into a short mobile-native post.
 
-- `case-studies/uala-report-worklog.md`
-  A case study documenting the Uala report workflow, including final-draft voice calibration, investor logic, name-origin handling, and company-specific visual identity.
+- `docs/assets/image-asset-workflow.md`
+  Local image package conventions, naming rules, source/rejected asset folders, and cover/body image validation.
 
-- `case-studies/traveloka-report-worklog.md`
-  A case study documenting the Traveloka report workflow, including length compression, narrative de-duplication, English-term annotations, user voice calibration, and travel-platform visual layout.
+## Vertical Playbooks
 
-- `case-studies/three-post-production-retrospective.md`
-  A cross-article retrospective covering the Kavak, Rappi, Uala, and Traveloka production progression, including title calibration, post-publish review, source notes, rich-copy HTML, asset packaging, series naming, and follow-up writing calibration.
+- `playbooks/unicorn/`
+  SOP and accumulated lessons for `每周独角兽观察`: private-company claim hygiene, financial and operating analysis, investor logic, competitor modeling, source notes, and final voice calibration.
 
-## Current Workflow Coverage
+- `playbooks/kickstarter/`
+  SOP and accumulated lessons for Kickstarter product observations: product pain-point writing, founder and campaign credibility, product assets, competitor cards, risk notes, Xiaohongshu adaptation, and WeChat packaging.
 
-- Topic selection and research framing
-- Source verification for private-company financial claims
-- Public account article structure
-- Word-count benchmarking and length compression for mobile readers
-- Narrative de-duplication so each section advances the logic instead of repeating the same thesis
-- Title calibration before publishing
-- Iterative content refinement
-- User final-draft voice calibration and AI-style phrase cleanup
-- First-use Chinese annotations for English business terms and acronyms
-- WeChat-friendly layout principles
-- "势差" editorial visual identity and reusable top banner rules
-- Body typography and emphasis-marking rules
-- Future mini-program entry placement
-- Standard series naming: `每周独角兽观察` and `每周独角兽观察员点评`
-- Name-origin, founder, and investor-logic sections for unicorn profiles
-- Cover, brand-identity image, founder image, and infographic asset planning
-- Local output package conventions for article HTML, rich-copy HTML, images, source assets, generated backups, and rejected visual directions
-- Separate validation for cover/share images and body images
-- Post-publish review based on final WeChat-saved HTML archives
-- Final review checklist before publishing
+## Automation Skills And Scripts
+
+- `skills/cursor/kickstarter-wechat-post/`
+  Imported Cursor Agent skill for turning Kickstarter-style product material into a WeChat draft and Xiaohongshu post.
+
+- `scripts/wechat/publish_wechat.py`
+  Reusable WeChat draft publishing script copied out of the Kickstarter skill so it can serve other article types too.
+
+## Case Studies
+
+- `case-studies/unicorn/`
+  Production worklogs and retrospectives for Kavak, Rappi, Uala, Traveloka, and the cross-article unicorn workflow progression.
+
+## Repository Maintenance
+
+- Keep universal rules in `docs/`; do not duplicate them inside every vertical playbook unless the rule has a column-specific variation.
+- Keep vertical methods in `playbooks/<column>/`; each playbook should explain what is specific to that article type.
+- Keep executable agent skills in `skills/`; skills can reference shared docs, but should remain installable.
+- Keep one-off production notes in `case-studies/`; promote repeated lessons into `docs/` or `playbooks/`.
