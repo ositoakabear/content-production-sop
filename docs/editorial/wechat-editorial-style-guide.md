@@ -102,7 +102,18 @@ Rules of thumb:
 - Use underline for precise facts, not broad opinions.
 - Do not stack color, underline, and bold on the same phrase unless it is a deliberate conversion module.
 
-## 6. Article-Type Notes
+## 6. Founder And Team Visual Evidence
+
+When an article uses a founder, creator, executive, or development team as part of its argument, the team section must include at least one identifiable, real image of that person or team. A product render, stock office image, AI-generated portrait, or anonymous conference crowd does not count as team evidence.
+
+- Prefer, in order: an official team photo or creator portrait; a photo from the brand's own story/interview page; a reputable media or event portrait; a verified company-profile photo.
+- Save the final asset in the product folder with a semantic filename such as `05_<product>_founder_<name>.jpg` or `05_<product>_team.jpg`.
+- Every caption must identify the person/team, role, source, and—when an older historical photo is used—the time or original context. Do not present an old employer-era photo as a current startup team photo.
+- If no credible founder/team image can be found, state that limitation in the research notes and do not fill the slot with an unrelated visual. The article may use a verified early product, workshop, or company-story image instead, but the caption must say what it is.
+
+This rule applies across product observations, company profiles, and founder-led analysis. It exists to make team credibility visible and auditable, rather than decorative.
+
+## 7. Article-Type Notes
 
 For Kickstarter product observations:
 
