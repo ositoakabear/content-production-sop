@@ -56,17 +56,21 @@ Required fields to collect before implementation:
 
 ## 4. Body Typography
 
-For mature WeChat editorial packaging, default to a denser media-style reading rhythm:
+The current trial baseline for WeChat editorial packaging is a smaller, airier mobile-reading rhythm. Apply it consistently within an article, then revisit after real-device reading feedback:
 
-- Body font size: `17px`
-- Body line-height: `1.75em`
-- Body letter-spacing: `0.034em`
+- Body font size: `13px`
+- Body line-height: `1.85em`
+- Body letter-spacing: `0.045em`
 - Body color: `rgba(0, 0, 0, 0.9)`
 - Paragraph side margin: usually `0 8px`
-- Caption font size: `12px` or `13px`
+- H1: `16px / 1.4`
+- H2: `15px / 1.45`
+- Caption: `11px / 1.6`
 - Caption color: `rgb(136, 136, 136)` or a nearby neutral gray
 
-For articles that need a softer note-like feel, a looser rhythm is allowed, but the default reusable template should start from `17px / 1.75em / 0.034em`.
+Important: set these values on the final text-bearing element, not only on its outer section. WeChat editor exports may add inner spans with their own `font-size`, which override inherited wrapper values and can silently flatten the intended hierarchy.
+
+This is a trial baseline, not a permanent lock. Review it against at least one published article on an actual phone before changing the default again.
 
 ## 5. Emphasis Rules
 
