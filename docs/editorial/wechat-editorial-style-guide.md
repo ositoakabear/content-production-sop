@@ -56,21 +56,32 @@ Required fields to collect before implementation:
 
 ## 4. Body Typography
 
-The current trial baseline for WeChat editorial packaging is a smaller, airier mobile-reading rhythm. Apply it consistently within an article, then revisit after real-device reading feedback:
+Use the following default hierarchy for finished WeChat posts. It was calibrated from the final published Sakana AI article package and is the canonical baseline for future articles.
 
-- Body font size: `13px`
+| Text role | Default size |
+| --- | ---: |
+| Series label / eyebrow | `14px` |
+| In-article H1 | `17px` |
+| Numbered section H2 | `17px` |
+| Body paragraphs, cards, quote boxes, and data values | `14px` |
+| Image captions, image-source lines, small data labels, and source notes | `12px` |
+
+Shared body styling:
+
+- Body font size: `14px`
 - Body line-height: `1.85em`
 - Body letter-spacing: `0.045em`
 - Body color: `rgba(0, 0, 0, 0.9)`
 - Paragraph side margin: usually `0 8px`
-- H1: `16px / 1.4`
-- H2: `15px / 1.45`
-- Caption: `11px / 1.6`
-- Caption color: `rgb(136, 136, 136)` or a nearby neutral gray
+- Caption and source-note color: `rgb(136, 136, 136)` or a nearby neutral gray
 
-Important: set these values on the final text-bearing element, not only on its outer section. WeChat editor exports may add inner spans with their own `font-size`, which override inherited wrapper values and can silently flatten the intended hierarchy.
+Implementation rules:
 
-This is a trial baseline, not a permanent lock. Review it against at least one published article on an actual phone before changing the default again.
+- Apply the new value to every explicit `font-size` declaration for that text role, including nested `span`, `strong`, and other inline elements. A parent font size does not override a stale inline value after content is pasted into the WeChat editor.
+- Cards, quote boxes, highlighted conclusions, and table values follow the `14px` body size unless they are explicitly classified as a small label or source note.
+- Image captions, image sources, footnotes, data-source notes, and reference lists use `12px`.
+- Project-specific playbooks inherit this hierarchy unless they document an intentional local exception.
+- A looser or denser rhythm is allowed when the article type needs it, but the default reusable template starts from `14px / 1.85em / 0.045em`.
 
 ## 5. Emphasis Rules
 
