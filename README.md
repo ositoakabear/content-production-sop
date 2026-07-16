@@ -9,6 +9,12 @@ It is organized as a shared knowledge base for the public account "势差": univ
 - `docs/editorial/wechat-editorial-style-guide.md`
   Visual identity, universal opening banner, mini-program entry placement, typography, and emphasis rules for "势差".
 
+- `docs/editorial/wechat-general-writing-skill.md`
+  Reusable author voice, series-first planning, title layering, endings, and rich-copy additions for WeChat essays.
+
+- `docs/editorial/agent-collaboration-workflow.md`
+  A cost-aware Codex + Claude Code workflow for drafting, red-team review, and finalization.
+
 - `docs/platforms/wechat-rendering-and-api-pitfalls.md`
   WeChat HTML rendering constraints, draft API pitfalls, image upload rules, IP whitelist notes, encoding issues, and Windows execution notes.
 
@@ -25,6 +31,9 @@ It is organized as a shared knowledge base for the public account "势差": univ
 
 - `playbooks/kickstarter/`
   SOP and accumulated lessons for Kickstarter product observations: product pain-point writing, founder and campaign credibility, product assets, competitor cards, risk notes, Xiaohongshu adaptation, and WeChat packaging.
+
+- `playbooks/ai-boundary/`
+  Project-specific structure, tone guardrails, theory boundaries, and visual preferences for the `AI 的边界` series.
 
 ## Automation Skills And Scripts
 

@@ -10,7 +10,7 @@ Avoid a marketing-poster look. Do not use loud gradients, busy decorative graphi
 
 ## 2. Opening Banner
 
-Use a branded opening banner before the article title block when the article is packaged as a finished WeChat post.
+Use a branded opening banner at the top when the article is packaged as a finished WeChat post.
 
 Default universal banner asset:
 
@@ -31,7 +31,8 @@ Recommended banner specs:
 - Visual basis: use the "势差" avatar language, with off-white paper, black rising geometric planes, and a small red differential mark
 - Content language: keep only the logo, `势差`, and one cross-column slogan
 - Default slogan: `看见新商业背后的结构势能`
-- Placement: first visual inside the article body, before the title card
+- Placement: first visual inside the article body, before the opening paragraph
+- Do not add an additional in-body title card after the banner by default. The WeChat title and cover already carry the headline, and repeating it makes the first screen heavy. If a project intentionally keeps an in-article H1, it must differ from the external title.
 - Styling in HTML:
 
 ```html
@@ -60,9 +61,9 @@ Use the following default hierarchy for finished WeChat posts. It was calibrated
 
 | Text role | Default size |
 | --- | ---: |
-| Series label / eyebrow | `14px` |
+| Series label / eyebrow | `13px` |
 | In-article H1 | `17px` |
-| Numbered section H2 | `17px` |
+| Numbered section H2 | `16px` |
 | Body paragraphs, cards, quote boxes, and data values | `14px` |
 | Image captions, image-source lines, small data labels, and source notes | `12px` |
 
@@ -78,6 +79,7 @@ Shared body styling:
 Implementation rules:
 
 - Apply the new value to every explicit `font-size` declaration for that text role, including nested `span`, `strong`, and other inline elements. A parent font size does not override a stale inline value after content is pasted into the WeChat editor.
+- Treat `13px / 17px / 16px / 14px / 12px` as one hierarchy: series label, optional H1, H2, body, and caption/source note.
 - Cards, quote boxes, highlighted conclusions, and table values follow the `14px` body size unless they are explicitly classified as a small label or source note.
 - Image captions, image sources, footnotes, data-source notes, and reference lists use `12px`.
 - Project-specific playbooks inherit this hierarchy unless they document an intentional local exception.
