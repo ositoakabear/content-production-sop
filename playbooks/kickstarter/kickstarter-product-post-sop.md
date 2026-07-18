@@ -62,6 +62,7 @@ Recommended structure:
 - Do not add a duplicate in-article title card by default. When a project intentionally keeps an H1, the external title and in-article H1 should not be identical.
 - Start with a concrete friction chain: what the user wants to do, what stops them, and what workaround they currently tolerate.
 - Explain product value with sentences like "it sells not A, but B" only when the contrast is genuinely useful.
+- Follow the shared emphasis system: render underlined prices, parameters, dates, mechanisms, or selected key phrases as black text with `border-bottom:2px dashed #3aaa35;padding-bottom:1px;`. Do not use a native solid underline.
 - Do not make the product win every comparison. A credible product post should name the short board.
 - Risks must be product-specific: delivery, compatibility, app dependency, battery life, consumables, repair, setup, children/pets, outdoor/weather, or after-sales.
 - If a product has DTC, retail, Shark Tank, prior Kickstarter, fulfillment, press, or creator signals, add a business-model or go-to-market paragraph.

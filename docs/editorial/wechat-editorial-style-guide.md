@@ -93,7 +93,7 @@ Recommended emphasis layers:
 
 - Black bold: core judgment or sentence-level conclusion
 - Brand-red bold: important data, pricing, growth result, strategic move, or business insight
-- Underline: hard facts such as price ranges, product parameters, category expansion, dates, and named mechanisms
+- Green dashed underline: hard facts such as price ranges, product parameters, category expansion, dates, and named mechanisms
 - Gray bold: author line, copyright note, source label, and image-source prefix
 
 Default brand red:
@@ -103,12 +103,19 @@ Default brand red:
 rgb(181, 30, 18)
 ```
 
+Default dashed-underline green:
+
+```text
+#3aaa35
+rgb(58, 170, 53)
+```
+
 Example inline styles:
 
 ```html
 <span style="font-weight:bold;">核心判断</span>
 <span style="color:#b51e12;font-weight:bold;">关键数据或商业结论</span>
-<span style="text-decoration:underline;">价格、参数、品类或硬信息</span>
+<span style="text-decoration:none;border-bottom:2px dashed #3aaa35;padding-bottom:1px;">价格、参数、品类或硬信息</span>
 <span style="color:rgb(136,136,136);font-weight:bold;">图源：</span>
 ```
 
@@ -116,7 +123,8 @@ Rules of thumb:
 
 - One paragraph should usually have at most one emphasized phrase.
 - Use colored bold for the content that a reader should remember after skimming.
-- Use underline for precise facts, not broad opinions.
+- Use the green dashed underline for precise facts, not broad opinions. Keep the text itself black unless another rule explicitly changes its color.
+- Do not use the browser-native solid underline (`text-decoration:underline`) for editorial emphasis. Use the inline `border-bottom` declaration above so the dashed style survives rich-text copying more reliably.
 - Do not stack color, underline, and bold on the same phrase unless it is a deliberate conversion module.
 
 ## 6. Founder And Team Visual Evidence
