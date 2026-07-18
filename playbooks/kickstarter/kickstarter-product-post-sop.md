@@ -46,23 +46,23 @@ See `../../docs/assets/image-asset-workflow.md` for shared image-package convent
 Recommended structure:
 
 1. Universal "势差" opening banner.
-2. Title card with the article-specific H1.
-3. Opening scene: start from a real user pain point or surprising product contrast.
-4. One-sentence value judgment.
-5. `PART 01`: founder, creator, brand story, and campaign credibility.
-6. `PART 02`: project overview with campaign timing, funding result, price, delivery, and core functions.
-7. `PART 03`: real pain point or creative origin, framed as "it truly solves..."
-8. `PART 04`: function and experience, organized around concrete usage scenarios.
-9. `PART 05`: competitor comparison as vertical cards, not a wide table.
-10. `PART 06`: risks, target audience, and market judgment.
-11. `REVIEW`: personal observer commentary.
-12. `LINKS`: source navigation and crowdfunding risk reminder.
+2. Opening scene: start from a real user pain point or surprising product contrast.
+3. One-sentence value judgment.
+4. `PART 01`: founder, creator, brand story, and campaign credibility.
+5. `PART 02`: project overview with campaign timing, funding result, price, delivery, and core functions.
+6. `PART 03`: real pain point or creative origin, framed as "it truly solves..."
+7. `PART 04`: function and experience, organized around concrete usage scenarios.
+8. `PART 05`: competitor comparison as vertical cards, not a wide table.
+9. `PART 06`: risks, target audience, and market judgment.
+10. `REVIEW`: personal observer commentary.
+11. `LINKS`: source navigation and crowdfunding risk reminder.
 
 ## 5. Writing Rules
 
-- External title and in-article H1 should not be identical.
+- Do not add a duplicate in-article title card by default. When a project intentionally keeps an H1, the external title and in-article H1 should not be identical.
 - Start with a concrete friction chain: what the user wants to do, what stops them, and what workaround they currently tolerate.
 - Explain product value with sentences like "it sells not A, but B" only when the contrast is genuinely useful.
+- Follow the shared emphasis system: render underlined prices, parameters, dates, mechanisms, or selected key phrases as black text with `border-bottom:2px dashed #3aaa35;padding-bottom:1px;`. Do not use a native solid underline.
 - Do not make the product win every comparison. A credible product post should name the short board.
 - Risks must be product-specific: delivery, compatibility, app dependency, battery life, consumables, repair, setup, children/pets, outdoor/weather, or after-sales.
 - If a product has DTC, retail, Shark Tank, prior Kickstarter, fulfillment, press, or creator signals, add a business-model or go-to-market paragraph.
