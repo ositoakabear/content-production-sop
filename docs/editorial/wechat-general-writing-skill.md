@@ -14,6 +14,16 @@ Already-covered rules should not be repeated here:
 
 If a new rule conflicts with an existing rule, do not overwrite the existing SOP directly. Prepare the difference for owner review first.
 
+## 0.1 Growth-Optimization Gate
+
+Every WeChat writing task that says it follows this repository must also use `content-growth-optimization-standard.md`.
+
+Before finalizing the article:
+
+- Apply every relevant optimization item in that standard.
+- If an item is intentionally not used, state the reason and remind the owner to review the exception.
+- Do not treat candidate insights in `social-media-methodology-observation-log.md` as approved rules before they pass the three-cycle evidence gate and owner review.
+
 ## 1. Author Voice
 
 For Axiong's own essays, preserve the author's thinking habits instead of polishing everything into a generic media voice.
