@@ -6,6 +6,12 @@ It is organized as a shared knowledge base for the public account "势差": univ
 
 ## Universal Standards
 
+- `docs/editorial/content-growth-optimization-standard.md`
+  Mandatory growth-optimization gate for every WeChat task that follows this repository: first-screen delivery, factual reliability, title packaging, conversion, baseline growth, and feedback collection.
+
+- `docs/editorial/social-media-methodology-observation-log.md`
+  Evidence log for candidate operating methods. Candidates require three independent weekly or monthly review cycles and owner approval before becoming formal methodology.
+
 - `docs/editorial/wechat-editorial-style-guide.md`
   Visual identity, universal opening banner, mini-program entry placement, typography, and emphasis rules for "势差".
 
@@ -51,6 +57,8 @@ It is organized as a shared knowledge base for the public account "势差": univ
 ## Repository Maintenance
 
 - Keep universal rules in `docs/`; do not duplicate them inside every vertical playbook unless the rule has a column-specific variation.
+- Treat `content-growth-optimization-standard.md` as a mandatory gate whenever a task says it follows this repository. Apply the relevant items or explicitly ask the owner to review any intentional exception.
+- Update `social-media-methodology-observation-log.md` only through formal weekly or monthly reviews. Do not promote a candidate before three independent cycles and owner approval.
 - Keep vertical methods in `playbooks/<column>/`; each playbook should explain what is specific to that article type.
 - Keep executable agent skills in `skills/`; skills can reference shared docs, but should remain installable.
 - Keep one-off production notes in `case-studies/`; promote repeated lessons into `docs/` or `playbooks/`.

@@ -80,6 +80,7 @@ Use this prompt when asking Claude Code to review a WeChat business-analysis dra
 
 After Claude Code returns comments, Codex must:
 
+- Run the mandatory optimization gate in `content-growth-optimization-standard.md`; apply each relevant item or flag the exception for owner review.
 - Accept only suggestions that improve reader clarity, judgment strength, or voice.
 - Reject suggestions that weaken claim hygiene or blur source uncertainty.
 - Keep series labels stable: `每周独角兽观察` and `每周独角兽观察员点评`.
