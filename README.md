@@ -12,6 +12,9 @@ It is organized as a shared knowledge base for the public account "势差": univ
 - `docs/editorial/social-media-methodology-observation-log.md`
   Evidence log for candidate operating methods. Candidates require three independent weekly or monthly review cycles and owner approval before becoming formal methodology.
 
+- `docs/editorial/social-media-reporting-standard.md`
+  Weekly, monthly, and quarterly reporting requirements, including mandatory Traffic Master revenue analysis and missing-data reminders.
+
 - `docs/editorial/wechat-editorial-style-guide.md`
   Visual identity, universal opening banner, mini-program entry placement, typography, and emphasis rules for "势差".
 
@@ -59,6 +62,7 @@ It is organized as a shared knowledge base for the public account "势差": univ
 - Keep universal rules in `docs/`; do not duplicate them inside every vertical playbook unless the rule has a column-specific variation.
 - Treat `content-growth-optimization-standard.md` as a mandatory gate whenever a task says it follows this repository. Apply the relevant items or explicitly ask the owner to review any intentional exception.
 - Update `social-media-methodology-observation-log.md` only through formal weekly or monthly reviews. Do not promote a candidate before three independent cycles and owner approval.
+- Include Traffic Master revenue and monetization analysis in every weekly, monthly, and quarterly report. If data is missing, ask the owner for the available backend export or screenshots before finalizing.
 - Keep vertical methods in `playbooks/<column>/`; each playbook should explain what is specific to that article type.
 - Keep executable agent skills in `skills/`; skills can reference shared docs, but should remain installable.
 - Keep one-off production notes in `case-studies/`; promote repeated lessons into `docs/` or `playbooks/`.
