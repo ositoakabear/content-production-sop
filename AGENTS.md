@@ -17,3 +17,9 @@ Apply every relevant optimization item in the growth standard. If an item is not
 `docs/editorial/social-media-methodology-observation-log.md` is an observation log, not an approved writing rule. Do not turn a candidate insight into a mandatory method until it has evidence from at least three independent weekly or monthly review cycles and the owner has reviewed the proposed methodology.
 
 Update the observation log only as part of a formal weekly or monthly review. Article-production tasks may use its candidates as hypotheses, but must not present them as settled conclusions.
+
+## Reporting And Monetization Reminder
+
+Before producing a weekly, monthly, or quarterly social-media report, read `docs/editorial/social-media-reporting-standard.md`.
+
+Every report must include the relevant Traffic Master revenue and monetization section. If the period's monetization export or screenshots have not been provided, explicitly remind the owner to supply the available revenue, article, ad-impression, click/CTR, eCPM, and settlement-status data before finalizing the report. Do not invent unavailable platform fields.
