@@ -38,6 +38,7 @@ Preferred tone:
 - Founder/team sections should use real founder or team images when available.
 - Store final assets in the product folder, not in temporary output folders.
 - Use numbered semantic filenames: `01_<product>_title_cover.jpg`, `02_<product>_lifestyle.jpg`, `03_<product>_install_detail.jpg`, `04_<product>_founders.jpg`, `05_<product>_scenario_grid.jpg`, `06_<product>_competitors.jpg`, `07_<product>_transition.gif`.
+- Lock title-cover copy to two text levels: `本周好物观察` and the official product name. Do not add a slogan, core selling point, feature phrase, emotional hook, campaign result, or duplicate article headline.
 
 See `../../docs/assets/image-asset-workflow.md` for shared image-package conventions.
 

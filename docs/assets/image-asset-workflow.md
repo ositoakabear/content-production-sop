@@ -43,6 +43,13 @@ Use numbered semantic filenames so image order is obvious during mobile preview:
 
 Do not preserve throwaway temporary crops unless they explain a production decision.
 
+## Title-Cover Copy
+
+- A standard title cover contains only the column label and the subject or product name.
+- Do not add a slogan, core selling point, feature phrase, emotional hook, campaign result, or duplicate article headline.
+- For Kickstarter product observations, use `本周好物观察` plus the official product name only.
+- Keep both required text levels legible in the intended horizontal cover. Treat extra copy as an error during visual QA.
+
 ## Visual Integrity Rules
 
 - Do not generate fake founder or team photos.

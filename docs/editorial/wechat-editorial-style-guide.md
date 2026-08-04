@@ -41,7 +41,18 @@ Recommended banner specs:
 </section>
 ```
 
-## 3. Mini-Program Entry
+## 3. Article Title Cover
+
+Use only two text levels on a standard article title cover:
+
+1. The column label
+2. The subject or product name
+
+Do not add a slogan, core selling point, feature phrase, emotional hook, campaign result, or a duplicate of the article headline. The article title and digest carry the click-through proposition; the cover should prioritize brand recognition, product recognition, and reliable cropping.
+
+For the Kickstarter product-observation column, the fixed column label is `本周好物观察`, followed only by the official product name. Preserve the product's official capitalization when it is in English.
+
+## 4. Mini-Program Entry
 
 Do not add a mini-program entry until the account has a confirmed mini-program appid, landing path, and entry image.
 
@@ -55,7 +66,7 @@ Required fields to collect before implementation:
 - Entry image
 - Whether the entry is for a product, report, resource pack, or account service
 
-## 4. Body Typography
+## 5. Body Typography
 
 Use the following default hierarchy for finished WeChat posts. It was calibrated from the final published Sakana AI article package and is the canonical baseline for future articles.
 
@@ -85,7 +96,7 @@ Implementation rules:
 - Project-specific playbooks inherit this hierarchy unless they document an intentional local exception.
 - A looser or denser rhythm is allowed when the article type needs it, but the default reusable template starts from `14px / 1.85em / 0.045em`.
 
-## 5. Emphasis Rules
+## 6. Emphasis Rules
 
 Use emphasis to improve scanability, not to decorate every paragraph.
 
@@ -127,7 +138,7 @@ Rules of thumb:
 - Do not use the browser-native solid underline (`text-decoration:underline`) for editorial emphasis. Use the inline `border-bottom` declaration above so the dashed style survives rich-text copying more reliably.
 - Do not stack color, underline, and bold on the same phrase unless it is a deliberate conversion module.
 
-## 6. Founder And Team Visual Evidence
+## 7. Founder And Team Visual Evidence
 
 When an article uses a founder, creator, executive, or development team as part of its argument, the team section must include at least one identifiable, real image of that person or team. A product render, stock office image, AI-generated portrait, or anonymous conference crowd does not count as team evidence.
 
@@ -138,7 +149,7 @@ When an article uses a founder, creator, executive, or development team as part 
 
 This rule applies across product observations, company profiles, and founder-led analysis. It exists to make team credibility visible and auditable, rather than decorative.
 
-## 7. Article-Type Notes
+## 8. Article-Type Notes
 
 For Kickstarter product observations:
 
