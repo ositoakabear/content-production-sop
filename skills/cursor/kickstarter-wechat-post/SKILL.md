@@ -109,6 +109,7 @@ Windows 下中文参数易被 PowerShell 解析出错时，用一个 `run_once.p
 
 如果本 skill 位于 `content-creation-playbook` 仓库内，先读取这些共享规范，再执行产品专属流程：
 
+- `../../../docs/editorial/wechat-general-writing-skill.md`：经作者确认的通用文风、论证节奏、跨栏目适配与 AI 腔自检规范。
 - `../../../docs/editorial/wechat-editorial-style-guide.md`：势差通用视觉、排版与重点标注规范。
 - `../../../docs/platforms/wechat-rendering-and-api-pitfalls.md`：跨文章通用的微信渲染与 API 坑。
 - `../../../docs/platforms/xiaohongshu-adaptation.md`：小红书改写通用规则。

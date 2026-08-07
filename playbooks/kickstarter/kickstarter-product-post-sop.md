@@ -2,6 +2,8 @@
 
 This SOP turns a Kickstarter or similar product lead into a WeChat-ready product observation article, with optional Xiaohongshu adaptation and WeChat draft publishing.
 
+Before drafting, read `../../docs/editorial/wechat-general-writing-skill.md`. Its approved author-voice baseline is mandatory; this playbook adds Kickstarter-specific research, structure, risk, and packaging rules without replacing that voice.
+
 ## 1. Positioning
 
 The article should read like a product and market observation, not a feature list.

@@ -2,6 +2,8 @@
 
 This SOP turns a unicorn company research topic into a WeChat-ready long-form analysis article, with optional Xiaohongshu adaptation and supporting visuals.
 
+Before drafting, read `../../docs/editorial/wechat-general-writing-skill.md`. Its approved author-voice baseline is mandatory; this playbook adds unicorn-specific sourcing, financial analysis, structure, and packaging rules without replacing that voice.
+
 ## 1. Positioning
 
 The article should read like a concise business case study, not a raw data dump.

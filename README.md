@@ -19,7 +19,7 @@ It is organized as a shared knowledge base for the public account "势差": univ
   Visual identity, universal opening banner, mini-program entry placement, typography, and emphasis rules for "势差".
 
 - `docs/editorial/wechat-general-writing-skill.md`
-  Reusable author voice, series-first planning, title layering, endings, and rich-copy additions for WeChat essays.
+  Owner-approved author-voice baseline and reasoning cadence for original essays, Kickstarter product observations, and unicorn/company analysis, plus series-first planning, title layering, endings, and rich-copy additions.
 
 - `docs/editorial/agent-collaboration-workflow.md`
   A cost-aware Codex + Claude Code workflow for drafting, red-team review, and finalization.
