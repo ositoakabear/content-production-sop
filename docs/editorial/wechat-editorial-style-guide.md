@@ -52,7 +52,34 @@ Do not add a slogan, core selling point, feature phrase, emotional hook, campaig
 
 For the Kickstarter product-observation column, the fixed column label is `本周好物观察`, followed only by the official product name. Preserve the product's official capitalization when it is in English.
 
-## 4. Mini-Program Entry
+Shared title-cover geometry:
+
+- The standard horizontal title cover is `2.35:1`. Use a practical export such as `1200 x 511`; do not use `1200 x 630` as the standard WeChat title-cover canvas.
+- Treat the centered square whose side equals the canvas height as the mandatory `1:1` safe area.
+- Keep the primary subject, product, face, logo when needed for identification, column label, and subject/product name inside that central square. Background texture and nonessential atmosphere may extend across the full `2.35:1` canvas.
+- Validate both the full horizontal cover and a centered `1:1` crop before publishing. Neither crop may cut through the primary subject or required text.
+- Build the horizontal cover as the master composition, then export a separate centered `1:1` share asset when the publishing workflow needs one.
+
+See `../assets/image-asset-workflow.md` for the canonical canvas, source-asset, and visual-integrity workflow. Vertical playbooks inherit this geometry and must not introduce a different default ratio.
+
+## 4. Article Ending Order And Official-Account Profile Card
+
+For every finished WeChat article, keep the bottom conversion and evidence modules in this order:
+
+1. Final personal commentary or article conclusion, including recurring blocks such as `本周观察`, `每周独角兽观察员点评`, or `REVIEW`
+2. The platform-native official-account profile card or account recommendation card
+3. Reference material, source notes, data-caliber notes, external links, and any crowdfunding risk reminder
+
+Implementation rules:
+
+- Insert the profile card after the author's final judgment so it does not interrupt the argument.
+- Insert it before `资料参考`, `资料来源`, `资料口径`, `延伸阅读`, or `LINKS`; source material remains the final module.
+- When an article has no named commentary block, place the card after the closing paragraph and before the source module.
+- Use the platform-native WeChat profile card when available. Do not imitate the card with an HTML screenshot, generated image, or QR-code banner unless the owner explicitly requests a fallback.
+- Keep exactly one profile-card recommendation in the ending area unless a campaign intentionally tests a different conversion layout.
+- Treat a source module that appears before the card as an ordering error during final QA.
+
+## 5. Mini-Program Entry
 
 Do not add a mini-program entry until the account has a confirmed mini-program appid, landing path, and entry image.
 
@@ -66,7 +93,7 @@ Required fields to collect before implementation:
 - Entry image
 - Whether the entry is for a product, report, resource pack, or account service
 
-## 5. Body Typography
+## 6. Body Typography
 
 Use the following default hierarchy for finished WeChat posts. It was calibrated from the final published Sakana AI article package and is the canonical baseline for future articles.
 
@@ -96,7 +123,7 @@ Implementation rules:
 - Project-specific playbooks inherit this hierarchy unless they document an intentional local exception.
 - A looser or denser rhythm is allowed when the article type needs it, but the default reusable template starts from `14px / 1.85em / 0.045em`.
 
-## 6. Emphasis Rules
+## 7. Emphasis Rules
 
 Use emphasis to improve scanability, not to decorate every paragraph.
 
@@ -138,7 +165,7 @@ Rules of thumb:
 - Do not use the browser-native solid underline (`text-decoration:underline`) for editorial emphasis. Use the inline `border-bottom` declaration above so the dashed style survives rich-text copying more reliably.
 - Do not stack color, underline, and bold on the same phrase unless it is a deliberate conversion module.
 
-## 7. Founder And Team Visual Evidence
+## 8. Founder And Team Visual Evidence
 
 When an article uses a founder, creator, executive, or development team as part of its argument, the team section must include at least one identifiable, real image of that person or team. A product render, stock office image, AI-generated portrait, or anonymous conference crowd does not count as team evidence.
 
@@ -149,7 +176,7 @@ When an article uses a founder, creator, executive, or development team as part 
 
 This rule applies across product observations, company profiles, and founder-led analysis. It exists to make team credibility visible and auditable, rather than decorative.
 
-## 8. Article-Type Notes
+## 9. Article-Type Notes
 
 For Kickstarter product observations:
 

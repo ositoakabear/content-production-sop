@@ -35,8 +35,8 @@ Preferred tone:
 ## 3. Material And Asset Rules
 
 - Product images must show the real product whenever possible.
-- Use official or credible media images before generated images.
-- Generated visuals are acceptable for scenario composites, competitor-type diagrams, or clearly labeled illustrations.
+- Follow the canonical source priority in `../../docs/assets/image-asset-workflow.md`: first-party official originals first, credible public or media originals second, and generated visuals only when real imagery is unavailable or the visual is explicitly conceptual.
+- Generated visuals are acceptable for scenario composites, competitor-type diagrams, or clearly labeled illustrations, but not as substitutes for available real products, people, logos, UI, events, or documents.
 - Founder/team sections should use real founder or team images when available.
 - Store final assets in the product folder, not in temporary output folders.
 - Use numbered semantic filenames: `01_<product>_title_cover.jpg`, `02_<product>_lifestyle.jpg`, `03_<product>_install_detail.jpg`, `04_<product>_founders.jpg`, `05_<product>_scenario_grid.jpg`, `06_<product>_competitors.jpg`, `07_<product>_transition.gif`.
@@ -58,7 +58,8 @@ Recommended structure:
 8. `PART 05`: competitor comparison as vertical cards, not a wide table.
 9. `PART 06`: risks, target audience, and market judgment.
 10. `REVIEW`: personal observer commentary.
-11. `LINKS`: source navigation and crowdfunding risk reminder.
+11. Platform-native official-account profile card, following the shared ending-order rule.
+12. `LINKS`: source navigation and crowdfunding risk reminder.
 
 ## 5. Writing Rules
 

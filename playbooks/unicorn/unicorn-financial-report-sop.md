@@ -296,7 +296,8 @@ Recommended WeChat structure:
 9. Competitor comparison by model type
 10. Risks and unresolved questions
 11. Personal commentary section
-12. Source notes
+12. Platform-native official-account profile card, following the shared ending-order rule
+13. Source notes
 
 Logical handoff rules:
 
@@ -377,6 +378,8 @@ Validation:
 - If browser security policy blocks local preview from a non-workspace drive, do a static resource check and manually preview through the WeChat editor or a permitted local path.
 
 ## 7. Visual Asset Workflow
+
+All title-cover geometry, crop-safe-area rules, and image-source priority inherit `../../docs/assets/image-asset-workflow.md`. The requirements below define unicorn-specific deliverables and visual roles without replacing the shared standard.
 
 For a full article package, prepare:
 
