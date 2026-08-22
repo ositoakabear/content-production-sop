@@ -81,7 +81,7 @@ Use the following default hierarchy for finished WeChat posts. It was calibrated
 Shared body styling:
 
 - Body font size: `14px`
-- Body line-height: `1.85em`
+- Body line-height: `2em`
 - Body letter-spacing: `0.045em`
 - Body color: `rgba(0, 0, 0, 0.9)`
 - Paragraph side margin: usually `0 8px`
@@ -94,7 +94,7 @@ Implementation rules:
 - Cards, quote boxes, highlighted conclusions, and table values follow the `14px` body size unless they are explicitly classified as a small label or source note.
 - Image captions, image sources, footnotes, data-source notes, and reference lists use `12px`.
 - Project-specific playbooks inherit this hierarchy unless they document an intentional local exception.
-- A looser or denser rhythm is allowed when the article type needs it, but the default reusable template starts from `14px / 1.85em / 0.045em`.
+- A looser or denser rhythm is allowed when the article type needs it, but the default reusable template starts from `14px / 2em / 0.045em`.
 
 ## 6. Emphasis Rules
 

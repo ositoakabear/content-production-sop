@@ -470,6 +470,6 @@ Compare the production package with the final published archive:
 - Did the final article add source notes, caveats, or investor framing that should be moved into the SOP?
 - Did the user remove phrases that sounded too template-like or too AI-generated?
 - Did the user cut sections because the article repeated itself or exceeded the likely completion-friendly length?
-- Did the final layout reveal mobile-density issues such as overly large headings, tight line height, or crowded image text?
+- Did the final layout reveal mobile-density issues such as overly large headings or crowded image text? Typography values should follow the shared WeChat editorial style guide rather than a unicorn-specific setting.
 
 Update the SOP when a pattern repeats across articles. Do not treat one-off fixes as permanent rules unless they clearly reduce publishing risk.
