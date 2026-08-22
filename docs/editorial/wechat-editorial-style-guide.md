@@ -52,7 +52,53 @@ Do not add a slogan, core selling point, feature phrase, emotional hook, campaig
 
 For the Kickstarter product-observation column, the fixed column label is `本周好物观察`, followed only by the official product name. Preserve the product's official capitalization when it is in English.
 
-## 4. Mini-Program Entry
+## 4. Article Ending And “关注势差” Conversion Module
+
+Every finished article must keep the ending modules in this order:
+
+1. Final personal commentary or article conclusion
+2. The `关注「势差」` conversion copy
+3. The platform-native official-account profile card
+4. Optional book or product recommendation cards when the article has an approved commerce plan
+5. Reference material, source notes, data-caliber notes, and external links
+
+Placement rules:
+
+- Insert the conversion module immediately after the final judgment. Do not interrupt the article's reasoning with it.
+- Keep the profile card before `资料参考`, `资料来源`, `资料口径`, `延伸阅读`, or `LINKS`; source material remains the final evidence module.
+- Do not number the conversion module as another article section by default. It is an ending action module, not part of the argument.
+- Use exactly one platform-native WeChat profile card. Do not imitate the card with an HTML screenshot, generated image, QR-code banner, or a hand-built fake card unless the owner explicitly requests a fallback.
+- Any editing placeholder such as `请在这里插入公众号名片` must be removed before publication.
+
+Copy standard:
+
+- Use no more than two short body paragraphs before the profile card.
+- The first paragraph must connect the current article's unresolved question to the reason for following the account. Avoid generic wording such as `欢迎关注` without a subject-specific bridge.
+- The second paragraph must state the durable content promise: what the account updates, how often when known, and which recurring questions it answers.
+- Do not use unrelated Kickstarter or consumer-product copy in a company-analysis article. Do not display stale article counts, follower counts, slogans, or platform metadata inside the editorial module.
+
+Default formatting:
+
+- Container: `margin:40px 8px 30px; padding:22px 20px 20px; background:#f7f4f0; border-top:4px solid #111111;`
+- Eyebrow label: `12px`, neutral gray, bold, increased letter spacing
+- Heading: `16px`, black bold; default text `关注「势差」`
+- Body: canonical `14px / 2em / 0.045em`
+- Card insertion note during editing: place a `12px` neutral-gray centered note immediately after the conversion container; replace the note with the native card and remove the note before publication
+- Do not add red sidebars, oversized display type, multiple background colors, or a second promotional card around the native profile card.
+
+Default HTML copy block:
+
+```html
+<section style="margin:40px 8px 30px;padding:22px 20px 20px;background:#f7f4f0;border-top:4px solid #111111;">
+  <p style="margin:0 8px 4px;color:#888888;font-size:12px;line-height:1.6em;letter-spacing:0.12em;font-weight:700;">继续看懂新公司</p>
+  <p style="margin:0 8px 14px;color:#111111;font-size:16px;line-height:1.55em;letter-spacing:0.02em;font-weight:700;">关注「势差」</p>
+  <p style="margin:0 8px 16px;color:rgba(0,0,0,0.9);font-size:14px;line-height:2em;letter-spacing:0.045em;">用一句与本篇主题直接相关的话，说明为什么值得继续关注。</p>
+  <p style="margin:0 8px 16px;color:rgba(0,0,0,0.9);font-size:14px;line-height:2em;letter-spacing:0.045em;">说明「势差」长期更新的对象、分析角度和读者能持续获得的价值。</p>
+</section>
+<!-- 紧接上方模块插入平台原生「势差」公众号名片；不要把名片做进自制卡片，插入后删除编辑提示。 -->
+```
+
+## 5. Mini-Program Entry
 
 Do not add a mini-program entry until the account has a confirmed mini-program appid, landing path, and entry image.
 
@@ -66,7 +112,7 @@ Required fields to collect before implementation:
 - Entry image
 - Whether the entry is for a product, report, resource pack, or account service
 
-## 5. Body Typography
+## 6. Body Typography
 
 Use the following default hierarchy for finished WeChat posts. It was calibrated from the final published Sakana AI article package and is the canonical baseline for future articles.
 
@@ -96,7 +142,7 @@ Implementation rules:
 - Project-specific playbooks inherit this hierarchy unless they document an intentional local exception.
 - A looser or denser rhythm is allowed when the article type needs it, but the default reusable template starts from `14px / 2em / 0.045em`.
 
-## 6. Emphasis Rules
+## 7. Emphasis Rules
 
 Use emphasis to improve scanability, not to decorate every paragraph.
 
@@ -138,7 +184,7 @@ Rules of thumb:
 - Do not use the browser-native solid underline (`text-decoration:underline`) for editorial emphasis. Use the inline `border-bottom` declaration above so the dashed style survives rich-text copying more reliably.
 - Do not stack color, underline, and bold on the same phrase unless it is a deliberate conversion module.
 
-## 7. Founder And Team Visual Evidence
+## 8. Founder And Team Visual Evidence
 
 When an article uses a founder, creator, executive, or development team as part of its argument, the team section must include at least one identifiable, real image of that person or team. A product render, stock office image, AI-generated portrait, or anonymous conference crowd does not count as team evidence.
 
@@ -149,7 +195,7 @@ When an article uses a founder, creator, executive, or development team as part 
 
 This rule applies across product observations, company profiles, and founder-led analysis. It exists to make team credibility visible and auditable, rather than decorative.
 
-## 8. Article-Type Notes
+## 9. Article-Type Notes
 
 For Kickstarter product observations:
 

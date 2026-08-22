@@ -294,7 +294,9 @@ Recommended WeChat structure:
 9. Competitor comparison by model type
 10. Risks and unresolved questions
 11. Personal commentary section
-12. Source notes
+12. `关注「势差」` copy and the platform-native official-account profile card, following the shared editorial style guide
+13. Optional approved book or product cards
+14. Source notes
 
 Logical handoff rules:
 
@@ -433,6 +435,8 @@ Before publishing:
 - Has the latest user-edited draft been used as the voice sample?
 - Does the article use `每周独角兽观察` and `每周独角兽观察员点评` consistently?
 - Does the final commentary add a personal view?
+- Does the publishing handoff include one primary and one backup in-article advertising recommendation, with matched ad types and exclusions?
+- Does the ending place the `关注「势差」` module and native profile card after the final judgment but before optional commerce cards and source notes?
 - Does the article include a `资料口径` block when source uncertainty requires one?
 - Are all visuals readable on a phone?
 - Does the first visual show the unicorn's actual identity or product surface?
