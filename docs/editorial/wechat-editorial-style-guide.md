@@ -72,16 +72,15 @@ Placement rules:
 
 Copy standard:
 
-- Use no more than two short body paragraphs before the profile card.
-- The first paragraph must connect the current article's unresolved question to the reason for following the account. Avoid generic wording such as `欢迎关注` without a subject-specific bridge.
-- The second paragraph must state the durable content promise: what the account updates, how often when known, and which recurring questions it answers.
-- Do not use unrelated Kickstarter or consumer-product copy in a company-analysis article. Do not display stale article counts, follower counts, slogans, or platform metadata inside the editorial module.
+- Keep exactly two visible paragraphs before the profile card, using the fixed copy below. Do not add an eyebrow, article-specific bridge, product-specific sentence, second account description, slogan, article count, follower count, or platform metadata.
+- First paragraph: `关注「势差」`
+- Second paragraph: `我们持续观察技术与需求如何重塑商业：从新产品到独角兽，从行业变化到 AI 时代，不只看发生了什么，也看变化为何发生、将走向哪里。`
+- Treat this wording as account-level fixed copy across Kickstarter, unicorn, industry, and AI articles. Do not adapt it to the current subject unless the owner explicitly supplies replacement copy.
 
 Default formatting:
 
 - Container: `margin:40px 8px 30px; padding:22px 20px 20px; background:#f7f4f0; border-top:4px solid #111111;`
-- Eyebrow label: `12px`, neutral gray, bold, increased letter spacing
-- Heading: `16px`, black bold; default text `关注「势差」`
+- Heading: `16px`, black bold; fixed text `关注「势差」`
 - Body: canonical `14px / 2em / 0.045em`
 - Card insertion note during editing: place a `12px` neutral-gray centered note immediately after the conversion container; replace the note with the native card and remove the note before publication
 - Do not add red sidebars, oversized display type, multiple background colors, or a second promotional card around the native profile card.
@@ -90,10 +89,8 @@ Default HTML copy block:
 
 ```html
 <section style="margin:40px 8px 30px;padding:22px 20px 20px;background:#f7f4f0;border-top:4px solid #111111;">
-  <p style="margin:0 8px 4px;color:#888888;font-size:12px;line-height:1.6em;letter-spacing:0.12em;font-weight:700;">继续看懂新公司</p>
   <p style="margin:0 8px 14px;color:#111111;font-size:16px;line-height:1.55em;letter-spacing:0.02em;font-weight:700;">关注「势差」</p>
-  <p style="margin:0 8px 16px;color:rgba(0,0,0,0.9);font-size:14px;line-height:2em;letter-spacing:0.045em;">用一句与本篇主题直接相关的话，说明为什么值得继续关注。</p>
-  <p style="margin:0 8px 16px;color:rgba(0,0,0,0.9);font-size:14px;line-height:2em;letter-spacing:0.045em;">说明「势差」长期更新的对象、分析角度和读者能持续获得的价值。</p>
+  <p style="margin:0 8px;color:rgba(0,0,0,0.9);font-size:14px;line-height:2em;letter-spacing:0.045em;">我们持续观察技术与需求如何重塑商业：从新产品到独角兽，从行业变化到 AI 时代，不只看发生了什么，也看变化为何发生、将走向哪里。</p>
 </section>
 <!-- 紧接上方模块插入平台原生「势差」公众号名片；不要把名片做进自制卡片，插入后删除编辑提示。 -->
 ```
@@ -149,9 +146,10 @@ Use emphasis to improve scanability, not to decorate every paragraph.
 Recommended emphasis layers:
 
 - Black bold: core judgment or sentence-level conclusion
-- Brand-red bold: important data, pricing, growth result, strategic move, or business insight
-- Green dashed underline: hard facts such as price ranges, product parameters, category expansion, dates, and named mechanisms
-- Gray bold: author line, copyright note, source label, and image-source prefix
+- Brand-red text without bold: important data, pricing, growth result, strategic move, or business insight
+- Green dashed underline on regular black text: hard facts such as price ranges, product parameters, category expansion, dates, and named mechanisms
+- Gray regular text: captions, source notes, secondary labels, and image-source lines
+- Black bold: author line, copyright note, field label, and source label when a label needs emphasis
 
 Default brand red:
 
@@ -171,18 +169,22 @@ Example inline styles:
 
 ```html
 <span style="font-weight:bold;">核心判断</span>
-<span style="color:#b51e12;font-weight:bold;">关键数据或商业结论</span>
+<span style="color:#b51e12;">关键数据或商业结论</span>
 <span style="text-decoration:none;border-bottom:2px dashed #3aaa35;padding-bottom:1px;">价格、参数、品类或硬信息</span>
-<span style="color:rgb(136,136,136);font-weight:bold;">图源：</span>
+<span style="color:rgb(136,136,136);">图注、资料口径或辅助信息</span>
+<span style="font-weight:bold;">图源：</span>
 ```
 
 Rules of thumb:
 
 - One paragraph should usually have at most one emphasized phrase.
-- Use colored bold for the content that a reader should remember after skimming.
+- Treat black bold, colored text, and the green dashed underline as three mutually exclusive emphasis methods. A phrase may use exactly one of them, never two or three.
+- This mutual-exclusion rule has no conversion-module exception. Do not combine red text with bold, dashed underline with bold, colored text with dashed underline, or all three together.
+- Check inherited styles as well as the phrase's own inline style. If a bold or colored parent would leak into an underlined child, split the sentence into sibling spans or remove the parent emphasis.
+- Use black bold for the content that a reader should remember after skimming.
+- Use brand-red regular text for the small number of data or risk signals that require color.
 - Use the green dashed underline for precise facts, not broad opinions. Keep the text itself black unless another rule explicitly changes its color.
 - Do not use the browser-native solid underline (`text-decoration:underline`) for editorial emphasis. Use the inline `border-bottom` declaration above so the dashed style survives rich-text copying more reliably.
-- Do not stack color, underline, and bold on the same phrase unless it is a deliberate conversion module.
 
 ## 8. Founder And Team Visual Evidence
 
@@ -206,7 +208,7 @@ For Kickstarter product observations:
 For unicorn or company case studies:
 
 - Use the universal `势差` banner. Do not add a unicorn-specific series label inside the GIF.
-- Use brand-red bold for valuation, revenue, profitability, financing, and strategic turning points.
+- Use either black bold or brand-red regular text for valuation, revenue, profitability, financing, and strategic turning points; never combine the two on the same phrase.
 - Keep founder, investor, monetization, and competitor sections visually scannable.
 
 For AI or thinking essays:
