@@ -216,3 +216,18 @@ For AI or thinking essays:
 - Banner language should stay quieter.
 - Use fewer cards and fewer colored highlights.
 - Let paragraph rhythm and section titles carry the argument.
+
+## 10. 富文本页面开头的绿色虚线样例
+
+补充日期：2026-09-25，作者明确要求；适用于各栏目富文本复制页。
+
+- 在富文本页面开头的编辑工具区提供一个可单独复制的绿色下划虚线文字样例，便于作者将样式应用到正文。
+- 样例放在正文复制区（如 `#copy-root`）之外，不进入“复制全文”内容、纯正文文件或最终发布正文。
+- 样例文字为“绿色虚线下划线样例”，使用黑色常规字重，绿色仅用于下边框：`border-bottom:2px dashed #3aaa35;padding-bottom:1px;`。不要叠加加粗、绿色字色或浏览器原生实线下划线。
+- 提供“复制样例”按钮，复制时保留内联样式；剪贴板权限受限时自动选中样例，提示用户手动复制。
+- 样例是编辑辅助，不是图片；作者可复制到编辑器后替换文字，再用于正文需要强调的位置。
+- 此项为作者指定的编辑辅助入口，沿用本文件的绿色虚线强调样式；不因此批量替换其他正文样式。
+
+```html
+<span style="font-size:14px;line-height:2em;letter-spacing:0.045em;color:#111111;font-weight:400;text-decoration:none;border-bottom:2px dashed #3aaa35;padding-bottom:1px;">绿色虚线下划线样例</span>
+```
